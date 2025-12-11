@@ -258,30 +258,7 @@ Contributions are welcome! Please follow these guidelines:
 - Test on Windows 10/11
 - Update documentation for new features
 
-## 📄 License & Copyright
-
-### Copyright Notice
-
-```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║                         IcBrows Browser                                      ║
-║                         Version 1.0.0                                        ║
-║                                                                              ║
-║                    Copyright © 2024 Your Company                             ║
-║                         All Rights Reserved                                  ║
-║                                                                              ║
-║  This software and associated documentation files (the "Software") are      ║
-║  proprietary and confidential. Unauthorized copying, modification,          ║
-║  distribution, or use of this Software, via any medium, is strictly         ║
-║  prohibited without the express written permission of Your Company.         ║
-║                                                                              ║
-║  For licensing inquiries, please contact:                                   ║
-║  Email: legal@yourcompany.com                                                ║
-║  Website: https://www.yourcompany.com                                       ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
+## 📄 License & Copyright`
 
 ### License
 
@@ -329,34 +306,6 @@ This software includes the following open-source components:
 - **Node.js** - Copyright (c) Node.js contributors (MIT License)
 
 See `LICENSE` file for full license details.
-
-## 📞 Support & Contact
-
-### Technical Support
-
-For technical issues, questions, or feature requests:
-
-- **GitHub Issues**: [Open an issue](https://github.com/yourcompany/icbrows/issues)
-- **Email Support**: support@yourcompany.com
-- **Documentation**: See `BUILD-INSTRUCTIONS.md` for build details
-- **Configuration Guide**: See `config.json` for default settings
-
-### Legal & Licensing
-
-For licensing inquiries or legal matters:
-
-- **Email**: legal@yourcompany.com
-- **Website**: https://www.yourcompany.com/legal
-
-### Company Information
-
-**Your Company**  
-Address: [Your Company Address]  
-Phone: [Your Phone Number]  
-Email: info@yourcompany.com  
-Website: https://www.yourcompany.com
-
-## 🗺️ Roadmap
 
 ### Planned Features
 
