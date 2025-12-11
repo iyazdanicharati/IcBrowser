@@ -31,7 +31,9 @@
       "!build/**/*",
       "!.git/**/*",
       "!.vscode/**/*",
-      "!*.md"
+      "!*.md",
+      "README.md",
+      "CHANGELOG.md"
     ],
     "win": {
       "target": [

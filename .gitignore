@@ -10,6 +10,12 @@ build/icon.ico
 out/
 *.asar
 
+# Documentation (keep README files)
+!README.md
+!CHANGELOG.md
+!BUILD-INSTRUCTIONS.md
+!README-BUILD.md
+
 # Keep build directory but ignore icon (user should add their own)
 !build/
 !build/README-ICON.md
