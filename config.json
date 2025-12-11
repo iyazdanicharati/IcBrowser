@@ -1,0 +1,50 @@
+{
+  "dns": {
+    "enabled": false,
+    "servers": [
+      "8.8.8.8",
+      "8.8.4.4"
+    ],
+    "doh": {
+      "enabled": false,
+      "provider": "cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query"
+    },
+    "localDomains": {
+      "enabled": true,
+      "domains": {
+        "server.local": "192.168.1.100",
+        "portal.company": "192.168.1.50",
+        "mail.company": "192.168.1.25"
+      }
+    }
+  },
+  "company": {
+    "name": "Company Browser",
+    "homepage": "https://www.google.com",
+    "bookmarks": [
+      {
+        "name": "Company Portal",
+        "url": "https://portal.company"
+      },
+      {
+        "name": "Email",
+        "url": "https://mail.company"
+      }
+    ],
+    "customCss": "",
+    "logo": ""
+  },
+  "ui": {
+    "fontFamily": "system"
+  },
+  "network": {
+    "proxy": {
+      "enabled": false,
+      "host": "",
+      "port": "",
+      "type": "http"
+    }
+  }
+}
+

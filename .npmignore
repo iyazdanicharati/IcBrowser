@@ -1,0 +1,23 @@
+# Build outputs
+dist/
+build/
+*.log
+
+# Development files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# Documentation
+*.md
+!README.md
+
+# Scripts
+build-icon.js
+scripts/
+

@@ -1,0 +1,45 @@
+appId: com.company.icbrows
+productName: IcBrows
+copyright: Copyright © 2024
+
+directories:
+  output: dist
+  buildResources: build
+
+files:
+  - "**/*"
+  - "!node_modules/**/*"
+  - "!dist/**/*"
+  - "!build/**/*"
+  - "!.git/**/*"
+  - "!.vscode/**/*"
+  - "!*.md"
+
+win:
+  target:
+    - target: portable
+      arch:
+        - x64
+  icon: build/icon.ico
+  artifactName: ${productName}-${version}-portable.${ext}
+  requestedExecutionLevel: asInvoker
+  # Remove Electron references from executable metadata
+  executableName: IcBrows
+  # Custom version info
+  versionInfo:
+    CompanyName: Your Company
+    FileDescription: IcBrows Browser
+    ProductName: IcBrows Browser
+    InternalName: IcBrows
+    LegalCopyright: Copyright © 2024
+    OriginalFilename: IcBrows.exe
+
+portable:
+  artifactName: ${productName}-${version}-portable.${ext}
+
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+
